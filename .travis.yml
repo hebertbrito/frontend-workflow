@@ -1,7 +1,6 @@
 language: generic
-sudo: required
 services:
-  - dockerfile
+  - docker
 
 before_install:
   - docker build -t britto/frontend-workflow -f Dockerfile.dev .
