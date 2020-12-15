@@ -7,3 +7,4 @@
 * Node
 * ReactJs
 * YML files
+* Travis CI
